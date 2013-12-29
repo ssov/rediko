@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+require 'rediko'
+require 'optparse'
+
+include Rediko
+
+options = {}
+opt = OptionParser.new
+opt.on('-c channel') {|v| options[:channel] = v }
+opt.on('-t sec') {|v| options[:time] = v }
+opt.on('-o directory') {|v| options[:output] = v }
+
+opt.parse!(ARGV)
+Rediko.dump(options)
