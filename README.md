@@ -1,6 +1,6 @@
 # Rediko
 
-TODO: Write a gem description
+Rediko is a radiko recorder.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ rediko -c TBS -t 3600 -o ~/
+
+## Dependencies
+
+* rtmpdump
+* swftools
 
 ## Contributing
 
