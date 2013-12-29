@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rediko::VERSION
   spec.authors       = ["Toshiyuki Shimanuki"]
   spec.email         = ["happy.new@nyaa.info"]
-  spec.description   = %q{radiko recorder}
-  spec.summary       = %q{radiko recorder}
+  spec.description   = %q{Radiko recorder}
+  spec.summary       = %q{Radiko recorder}
   spec.homepage      = ""
   spec.license       = "MIT"
 
